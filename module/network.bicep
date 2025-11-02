@@ -29,7 +29,7 @@ var subnetName = '${purpose}-sn'
 var nsgName = '${subnetName}-nsg'
 var envShort = envShortMap[environment]
 
-resource myNSG 'Microsoft.Network/networkSecurityGroups@2023-05-01' = {
+resource myNSG 'Microsoft.Network/networkSecurityGroups@2024-10-01' = {
   name: nsgName
   location:location
   tags: {
