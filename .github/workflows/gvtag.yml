@@ -24,7 +24,7 @@ jobs:
         fetch-depth: 0
     # we are referring to the remote repo
     - name: Tag GitVersion to repo
-      uses: MKTHEPLUGG/gitversion-tag-action@v5
+      uses: MKTHEPLUGG/gitversion-tag-action@v6
       with:
         configFilePath: gitversion.yml
         
