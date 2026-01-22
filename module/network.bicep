@@ -56,7 +56,7 @@ resource myNSG 'Microsoft.Network/networkSecurityGroups@2025-01-01' = {
   }
 }
 
-resource myVNET 'Microsoft.Network/virtualNetworks@2025-01-01' = {
+resource myVNET 'Microsoft.Network/virtualNetworks@2025-05-01' = {
   name: vNetName
   location: location
   tags: {
